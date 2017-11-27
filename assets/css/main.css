@@ -1,0 +1,16 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.fondo{
+	background-image: url(../img/sunny-day.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5em;
+}
+.kittenMedium{
+	text-align: center;
+	padding-top: 20em;
+}
