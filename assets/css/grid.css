@@ -1,11 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.container{
+    width:100%;
+    max-width:1000px;
+    margin:0px auto;
+}
 .row:before, .row:after{
-    content: "";
-    display: table;
-    clear: both;
+    content:"";
+    display:table;
+}
+.row:after{
+    clear:both;
 }
 [class*="col-"]{
-    float: left;
-}
+    min-height:7px;
+    padding:12px;
+    float:left;
+} 
 .col-1{
     /*(1/12) x 100 */
     width:8.33333333%;

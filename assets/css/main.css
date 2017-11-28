@@ -1,16 +1,14 @@
-*{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
 .fondo{
 	background-image: url(../img/sunny-day.jpg);
 	background-repeat: no-repeat;
+	/* para que la imagen quede centrada siempre*/
+	background-position: center;
 	background-size: cover;
+	/*height: 100vh; 100% del alto del viwport*/
 	padding: 5em;
 }
-.kittenMedium{
+.kitty{
 	text-align: center;
 	padding-top: 20em;
+	max-width: 60%;
 }
